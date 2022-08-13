@@ -14,13 +14,13 @@ function renderCard(titleArr, element, icon) {
               <div class="movie-info">
                   <div class="info">
                       <h2 class="title">${data.Title}</h2>
-                      <img src="/img/starIcon.png" alt="">
+                      <img src="./img/starIcon.png" alt="">
                       <p>${data.imdbRating}</p>
                   </div>
                   <div class="additional-info">
                       <p>${data.Runtime}</p>
                       <p>${data.Genre}</p>
-                      <button class="ls-btn"><img src="/img/${icon}.png" alt=""> 
+                      <button class="ls-btn"><img src="./img/${icon}.png" alt=""> 
                       ${icon === 'addIcon' ? 'Watchlist' : 'Remove'} </button>
                       <h2 class="hide">${data.Title}</h2>
                   </div>
