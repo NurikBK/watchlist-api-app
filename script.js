@@ -1,5 +1,5 @@
 import { renderCard } from '/app.js';
-const url = 'http://www.omdbapi.com/?i=tt3896198&apikey=e177e417';
+const url = 'https://www.omdbapi.com/?i=tt3896198&apikey=e177e417';
 
 const searchEl = document.getElementById('search'),
   searchBtn = document.getElementById('search-btn'),
