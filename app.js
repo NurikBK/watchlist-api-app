@@ -1,6 +1,6 @@
 let movieList = [];
 let lSitems = JSON.parse(localStorage.getItem('watchlist'));
-const url = 'http://www.omdbapi.com/?i=tt3896198&apikey=e177e417';
+const url = 'https://www.omdbapi.com/?i=tt3896198&apikey=e177e417';
 
 function renderCard(titleArr, element, icon) {
   titleArr.forEach(async (title) => {
